@@ -1,9 +1,4 @@
-/*
-
-Cleaning Data in SQL
-
-*/
-
+/* Data Cleaning */
 
 Select *
 From PortfolioProject.dbo.NashvilleHousing
