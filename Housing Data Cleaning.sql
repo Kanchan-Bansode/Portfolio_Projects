@@ -15,7 +15,7 @@ From PortfolioProject.dbo.NashvilleHousing
 Update NashvilleHousing
 SET SaleDate = CONVERT(Date,SaleDate)
 
--- If it doesn't Update properly
+-- Another Approach
 
 ALTER TABLE NashvilleHousing
 Add SaleDateConverted Date;
@@ -30,6 +30,7 @@ SET SaleDateConverted = CONVERT(Date,SaleDate)
 
 Select *
 From PortfolioProject.dbo.NashvilleHousing
+	
 --Where PropertyAddress is null
 order by ParcelID
 
