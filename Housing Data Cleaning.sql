@@ -186,7 +186,6 @@ Select *,
 					) row_num
 
 From PortfolioProject.dbo.NashvilleHousing
---order by ParcelID
 )
 Select *
 From RowNumCTE
